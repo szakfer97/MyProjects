@@ -61,7 +61,7 @@ namespace FibonacciSequence
                     {
                         odd++;
                     }
-                    Console.WriteLine("Number {0} is {1} ", i, Numf);
+                    Console.WriteLine($"Number {i} is {Numf}");
                 }
                 Console.WriteLine($"Number of even numbers is {even}");
                 Console.WriteLine($"NUmber of odd numbers is {odd}");

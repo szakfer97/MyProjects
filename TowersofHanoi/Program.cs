@@ -12,7 +12,7 @@ namespace TowersofHanoi
         {
             try
             {
-                Console.WriteLine("My name is Szakacsi Ferenc-Adam");
+                Console.WriteLine("My name is Szakacsi Ferenc-Adam"); 
                 Console.WriteLine("This programme solves the Hanoi Towers problem");
                 char firstPeg = 'A';
                 char tempPeg = 'B';

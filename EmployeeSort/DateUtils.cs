@@ -23,8 +23,8 @@ namespace EmployeeSort
         }
         public static int MonthDifference(DateTime a, DateTime b)
         {
-            var yearDifferenceInMonths = (a.Year - b.Year) * 12;
-            var monthDifference = a.Month - b.Month;
+            int yearDifferenceInMonths = (a.Year - b.Year) * 12;
+            int monthDifference = a.Month - b.Month;
             return yearDifferenceInMonths + monthDifference + ((a.Day > b.Day) ? 1 : 0);
         }
     }

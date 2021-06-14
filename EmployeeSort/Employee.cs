@@ -34,7 +34,6 @@ namespace EmployeeSort
                 if (ret == 0)
                 {
                     return 0;
-
                 }
                 else
                 {
